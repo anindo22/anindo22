@@ -45,15 +45,12 @@ I am a passionate Computer Science & Engineering student in my **5th semester** 
 | **SSC (Science)** | Kushtia Zilla School | **GPA 5.00 / 5.00** *(2021)* |
 
 ---
-
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anindo22&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anindo22&layout=compact&theme=tokyonight&hide_border=true" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=anindo22&show_icons=true&theme=tokyonight" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anindo22&theme=tokyonight" width="48%" />
 </p>
-
----
 
 ### 📬 Connect with Me
 
