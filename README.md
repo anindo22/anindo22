@@ -50,10 +50,11 @@ I am a passionate Computer Science & Engineering student in my **5th semester** 
 ### 📬 Connect with Me
 
 <p align="left">
+  <a href="https://www.linkedin.com/in/anindo-paul" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Anindo_Paul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:anindopaul293@gmail.com"><img src="https://img.shields.io/badge/Email-anindopaul293%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/[LinkedIn-Anindo_Paul](https://github.com/anindo22)-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
+- 💼 **LinkedIn:** [Anindo Paul](https://www.linkedin.com/in/anindo-paul)  
 - 📧 **Email:** anindopaul293@gmail.com  
 - 📞 **Phone:** +8801793099866  
 - 📍 **Location:** Dhaka, Bangladesh
