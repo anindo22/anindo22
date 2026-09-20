@@ -73,13 +73,13 @@ img{max-width:100%}
 .badge .dot{width:7px; height:7px; border-radius:50%; background:var(--gold)}
 
 .portrait-frame{
-  width:158px; border-radius:12px; overflow:hidden;
+  width:158px; height:198px; flex-shrink:0; border-radius:12px; overflow:hidden;
   border:1px solid rgba(169,189,140,.3);
   background:var(--rail-bg-2);
   margin-bottom:1.7rem;
 }
-.portrait-frame .imgwrap{position:relative; width:100%; height:0; padding-bottom:125%; overflow:hidden}
-.portrait-frame img{position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; object-position:50% 14%; display:block}
+.portrait-frame .imgwrap{width:100%; height:100%; overflow:hidden}
+.portrait-frame img{width:100%; height:100%; object-fit:cover; object-position:50% 14%; display:block}
 
 .name{font-size:clamp(2.3rem,6.6vw,3.1rem); line-height:1; letter-spacing:-.015em; margin-bottom:.7rem}
 .name .last{color:var(--sage)}
