@@ -18,8 +18,6 @@ I am a passionate Computer Science & Engineering student in my **5th semester** 
 
 - 🎓 **Education:** B.Sc. in CSE @ **Daffodil International University**
 - 📊 **Academic Performance:** CGPA **3.89** / 4.00 *(Running 5th Semester)*
-- 🌐 **Portfolio Website:** [anindo22.github.io/anindo22](https://anindo22.github.io/anindo22/)
-- 📄 **Resume / CV:** [View / Download CV](Anindo%20paul.pdf)
 - 🤖 **Core Interests:** Artificial Intelligence, Computer Vision & Prompt Engineering
 - 🎯 **Future Goal:** CSE Lecturer & AI Researcher
 - 📍 **Location:** Dhaka, Bangladesh
