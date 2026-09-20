@@ -13,31 +13,31 @@
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
-  --paper:#EFEEE4;
-  --fg:#16281C;
-  --fg-soft:#4B6152;
-  --rail-bg:#13241A;
-  --rail-bg-2:#1C3224;
-  --rail-fg:#EAEFE0;
-  --rail-fg-soft:#A9BD8C;
-  --sage:#A9BD8C;
-  --sage-dim:#7D9660;
-  --gold:#B8912F;
-  --rule:rgba(22,40,28,.16);
-  --track:rgba(22,40,28,.10);
+  --paper:#E4DBC7;
+  --fg:#241B12;
+  --fg-soft:#6E5F49;
+  --rail-bg:#0E2E33;
+  --rail-bg-2:#173C42;
+  --rail-fg:#EAF3F1;
+  --rail-fg-soft:#8EBAB7;
+  --sage:#8EBAB7;
+  --sage-dim:#3E7A78;
+  --gold:#C4703A;
+  --rule:rgba(36,27,18,.18);
+  --track:rgba(36,27,18,.10);
   --measure:64ch;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
-    --paper:#111A14; --fg:#E4E8D9; --fg-soft:#A6B79A;
-    --rail-bg:#0C1510; --rail-bg-2:#152019;
-    --rule:rgba(220,230,210,.14); --track:rgba(220,230,210,.10); --gold:#D4AC4C;
+    --paper:#171310; --fg:#EEE3D4; --fg-soft:#B4A28A;
+    --rail-bg:#071C1F; --rail-bg-2:#0E292D;
+    --rule:rgba(238,227,212,.14); --track:rgba(238,227,212,.10); --gold:#D98750;
   }
 }
 :root[data-theme="dark"]{
-  --paper:#111A14; --fg:#E4E8D9; --fg-soft:#A6B79A;
-  --rail-bg:#0C1510; --rail-bg-2:#152019;
-  --rule:rgba(220,230,210,.14); --track:rgba(220,230,210,.10); --gold:#D4AC4C;
+  --paper:#171310; --fg:#EEE3D4; --fg-soft:#B4A28A;
+  --rail-bg:#071C1F; --rail-bg-2:#0E292D;
+  --rule:rgba(238,227,212,.14); --track:rgba(238,227,212,.10); --gold:#D98750;
 }
 *,*::before,*::after{box-sizing:inherit}
 html{-webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:env(safe-area-inset-top,0px)}
@@ -60,12 +60,14 @@ img{max-width:100%}
   .rail{position:sticky; top:env(safe-area-inset-top,0px); height:100vh; min-height:660px;
         padding:3.4rem 2.6rem 2.6rem; display:flex; flex-direction:column}
 }
-.rail::after{content:""; position:absolute; left:0; right:0; bottom:0; height:6px;
-  background:linear-gradient(90deg,var(--sage) 0 38%, var(--gold) 38% 46%, transparent 46%)}
+@media (min-width:960px){
+  .rail::after{content:""; position:absolute; top:0; right:0; bottom:0; width:1px;
+    background:linear-gradient(180deg, transparent, var(--sage-dim) 20%, var(--sage-dim) 80%, transparent)}
+}
 .portrait{position:relative; width:190px; height:190px; margin:0 0 1.9rem; flex:none}
 .portrait .disc{position:absolute; inset:0; border-radius:50%;
-  background:radial-gradient(circle at 40% 25%, var(--rail-bg-2), var(--rail-bg-2) 60%, rgba(169,189,140,.30));
-  box-shadow:inset 0 0 0 1px rgba(169,189,140,.38)}
+  background:radial-gradient(circle at 40% 25%, var(--rail-bg-2), var(--rail-bg-2) 60%, rgba(142,186,183,.30));
+  box-shadow:inset 0 0 0 1px rgba(142,186,183,.38)}
 .portrait img{position:absolute; left:50%; bottom:0; transform:translateX(-50%); width:174px; display:block;
   filter:drop-shadow(0 10px 24px rgba(0,0,0,.38))}
 .name{font-size:clamp(2.5rem,7vw,3.3rem); line-height:.96; letter-spacing:-.018em; margin-bottom:.7rem}
@@ -73,14 +75,14 @@ img{max-width:100%}
 .name .last{color:var(--sage)}
 .role{font-size:.96rem; color:var(--rail-fg-soft); max-width:30ch; margin:0 0 1.6rem}
 .role b{color:var(--rail-fg); font-weight:500}
-nav.sections{margin-top:auto; padding-top:1.4rem; border-top:1px solid rgba(169,189,140,.25)}
+nav.sections{margin-top:auto; padding-top:1.4rem; border-top:1px solid rgba(142,186,183,.25)}
 nav.sections ol{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.15rem 1.4rem}
 @media (min-width:960px){ nav.sections ol{display:block} }
 nav.sections a{display:inline-block; text-decoration:none; font-size:.93rem; color:var(--rail-fg-soft);
   padding:.28rem 0; border-bottom:1px solid transparent}
 nav.sections a:hover,nav.sections a:focus-visible{color:var(--rail-fg); border-bottom-color:var(--gold)}
 .rail-contact{margin-top:1.5rem; font-size:.87rem; color:var(--rail-fg-soft); display:flex; flex-wrap:wrap; gap:.4rem 1rem}
-.rail-contact a{text-decoration:none; border-bottom:1px solid rgba(169,189,140,.45)}
+.rail-contact a{text-decoration:none; border-bottom:1px solid rgba(142,186,183,.45)}
 .rail-contact a:hover{color:#fff; border-bottom-color:var(--gold)}
 
 main{padding:3rem 1.5rem 4rem}
@@ -135,8 +137,19 @@ p{max-width:var(--measure)}
 .contact-grid dd{margin:0; font-size:1rem}
 .contact-grid a{text-decoration:none; border-bottom:1px solid var(--rule)}
 .contact-grid a:hover{border-bottom-color:var(--gold); color:var(--gold)}
-footer{max-width:760px; margin:3.4rem auto 0; padding-top:1.2rem; border-top:1px solid var(--rule);
-  font-size:.83rem; color:var(--fg-soft)}
+.site-footer{
+  margin-top:4rem; background:var(--rail-bg); color:var(--rail-fg-soft);
+  padding:1.8rem 1.5rem; font-size:.86rem;
+}
+@media (min-width:700px){ .site-footer{padding:1.8rem 3.4rem} }
+@media (min-width:1280px){ .site-footer{padding:1.8rem 5rem} }
+.site-footer .inner{
+  max-width:760px; margin:0 auto; display:flex; flex-wrap:wrap;
+  justify-content:space-between; align-items:center; gap:.8rem 1.6rem;
+}
+.site-footer a{color:var(--rail-fg-soft); text-decoration:none; border-bottom:1px solid transparent}
+.site-footer a:hover{color:#fff; border-bottom-color:var(--gold)}
+.site-footer .links{display:flex; flex-wrap:wrap; gap:.3rem 1.2rem}
 :focus-visible{outline:2px solid var(--gold); outline-offset:3px; border-radius:2px}
 
 @media (prefers-reduced-motion:no-preference){
@@ -186,7 +199,6 @@ footer{max-width:760px; margin:3.4rem auto 0; padding-top:1.2rem; border-top:1px
     <section id="about">
       <div class="sec-head"><h2>About</h2><span class="note">5th semester · CGPA 3.89 / 4.00</span></div>
       <div class="body">
-        <p class="lead">I build software to understand how it works, then rebuild it to understand it better.</p>
         <p>I am studying for a B.Sc. in Computer Science &amp; Engineering at Daffodil International University. Most of my time goes to programming fundamentals, problem solving, and reading about artificial intelligence and computer vision — the part of the field where a small idea changes what a machine is able to see.</p>
         <p>Outside coursework I learn by building: small games, WordPress sites, and experiments with prompt engineering. I like working in teams, explaining things to people who are stuck, and finishing what I start.</p>
         <p>My longer goal is to teach. I want to become a university lecturer and an AI researcher, so that the explaining and the building stay part of the same job.</p>
@@ -305,10 +317,21 @@ footer{max-width:760px; margin:3.4rem auto 0; padding-top:1.2rem; border-top:1px
         <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/anindo-paul" target="_blank" rel="noopener">anindo-paul</a></dd></div>
         <div><dt>Location</dt><dd>Dhaka, Bangladesh</dd></div>
       </dl>
-      <footer>Anindo Paul · Dhaka, Bangladesh</footer>
     </section>
 
   </main>
 </div>
+
+<footer class="site-footer">
+  <div class="inner">
+    <span>© 2026 Anindo Paul, Dhaka</span>
+    <nav class="links">
+      <a href="mailto:anindopaul293@gmail.com">Email</a>
+      <a href="https://github.com/anindo22" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/anindo-paul" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#about">Back to top ↑</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
