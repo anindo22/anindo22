@@ -5,6 +5,11 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&pause=1000&color=00F0FF&center=true&vCenter=true&width=550&lines=CSE+Student+(5th+Semester);CGPA%3A+3.89%2F4.00;Passionate+about+AI+%26+Computer+Vision;Future+Goal%3A+University+Lecturer" alt="Typing SVG" />
 </p>
 
+<p align="center">
+  <a href="https://anindo22.github.io/anindo22/" target="_blank"><img src="https://img.shields.io/badge/🌐_Portfolio-Live_Website-10B981?style=for-the-badge" alt="Portfolio" /></a>
+  <a href="Anindo%20paul.pdf" target="_blank"><img src="https://img.shields.io/badge/📄_Resume/CV-Download-FF5722?style=for-the-badge" alt="CV" /></a>
+</p>
+
 ---
 
 ### 👨‍💻 About Me
@@ -13,6 +18,8 @@ I am a passionate Computer Science & Engineering student in my **5th semester** 
 
 - 🎓 **Education:** B.Sc. in CSE @ **Daffodil International University**
 - 📊 **Academic Performance:** CGPA **3.89** / 4.00 *(Running 5th Semester)*
+- 🌐 **Portfolio Website:** [anindo22.github.io/anindo22](https://anindo22.github.io/anindo22/)
+- 📄 **Resume / CV:** [View / Download CV](Anindo%20paul.pdf)
 - 🤖 **Core Interests:** Artificial Intelligence, Computer Vision & Prompt Engineering
 - 🎯 **Future Goal:** CSE Lecturer & AI Researcher
 - 📍 **Location:** Dhaka, Bangladesh
@@ -46,14 +53,17 @@ I am a passionate Computer Science & Engineering student in my **5th semester** 
 
 ---
 
-
 ### 📬 Connect with Me
 
 <p align="left">
+  <a href="https://anindo22.github.io/anindo22/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Anindo_Paul-10B981?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="Anindo%20paul.pdf" target="_blank"><img src="https://img.shields.io/badge/Resume/CV-Download-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/anindo-paul" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Anindo_Paul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:anindopaul293@gmail.com"><img src="https://img.shields.io/badge/Email-anindopaul293%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
+- 🌐 **Portfolio:** [anindo22.github.io/anindo22](https://anindo22.github.io/anindo22/)  
+- 📄 **Resume / CV:** [View / Download](Anindo%20paul.pdf)  
 - 💼 **LinkedIn:** [Anindo Paul](https://www.linkedin.com/in/anindo-paul)  
 - 📧 **Email:** anindopaul293@gmail.com  
 - 📞 **Phone:** +8801793099866  
