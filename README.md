@@ -5,12 +5,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&pause=1000&color=00F0FF&center=true&vCenter=true&width=550&lines=CSE+Student+(5th+Semester);CGPA%3A+3.89%2F4.00;Passionate+about+AI+%26+Computer+Vision;Future+Goal%3A+University+Lecturer" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <a href="https://anindo22.github.io/anindo22/" target="_blank"><img src="https://img.shields.io/badge/🌐_Portfolio-Live_Website-10B981?style=for-the-badge" alt="Portfolio" /></a>
-  <a href="Anindo%20paul.pdf" target="_blank"><img src="https://img.shields.io/badge/📄_Resume/CV-Download-FF5722?style=for-the-badge" alt="CV" /></a>
-</p>
-
----
 
 ### 👨‍💻 About Me
 
