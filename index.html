@@ -14,31 +14,20 @@
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
 
-  --paper:#EFEEE4;
-  --fg:#16281C;
-  --fg-soft:#4B6152;
-  --rail-bg:#13241A;
-  --rail-bg-2:#1C3224;
+  /* Always Dark Green Theme Settings */
+  --paper:#111A14;
+  --fg:#E4E8D9;
+  --fg-soft:#A6B79A;
+  --rail-bg:#0C1510;
+  --rail-bg-2:#152019;
   --rail-fg:#EAEFE0;
   --rail-fg-soft:#A9BD8C;
   --sage:#A9BD8C;
   --sage-dim:#7D9660;
-  --gold:#B8912F;
-  --rule:rgba(22,40,28,.16);
-  --track:rgba(22,40,28,.10);
+  --gold:#D4AC4C;
+  --rule:rgba(220,230,210,.14);
+  --track:rgba(220,230,210,.10);
   --measure:64ch;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --paper:#111A14; --fg:#E4E8D9; --fg-soft:#A6B79A;
-    --rail-bg:#0C1510; --rail-bg-2:#152019;
-    --rule:rgba(220,230,210,.14); --track:rgba(220,230,210,.10); --gold:#D4AC4C;
-  }
-}
-:root[data-theme="dark"]{
-  --paper:#111A14; --fg:#E4E8D9; --fg-soft:#A6B79A;
-  --rail-bg:#0C1510; --rail-bg-2:#152019;
-  --rule:rgba(220,230,210,.14); --track:rgba(220,230,210,.10); --gold:#D4AC4C;
 }
 
 *,*::before,*::after{box-sizing:inherit}
